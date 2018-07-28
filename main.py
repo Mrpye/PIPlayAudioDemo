@@ -29,5 +29,6 @@ try:
                 buttondown=True
         elif(buttondown==True):
             buttondown=False
+        sleep(0.1)
 except KeyboardInterrupt:
         pass
